@@ -7,7 +7,7 @@
                \/             \/      \/     \/     \/      \/       
                         C O M P L E T E  M A N D I A N T                    
                              O F F E N S I V E   V M                        
-                                   Version 1.0                                 
+                                   Version 1.2                                 
                _____________________________________________________          
 
                                    Developed by                                
@@ -34,6 +34,14 @@ Requirements
 * Windows 7 Service Pack 1 or Windows 10
 * 60 GB Hard Drive
 * 2 GB RAM
+
+Recommended
+-----------
+* Windows 10
+* 80+ GB Hard Drive
+* 4+ GB RAM
+* 2 network adapters
+* Enable Virtualization support for VM
 
 Instructions
 ------------
@@ -67,7 +75,6 @@ Type the following command to update all of the packages to the most recent vers
     cup all
 
 
-
 Installed Tools
 ===============
 
@@ -89,12 +96,15 @@ Installed Tools
 - Java
 - Python 2
 - Python 3 (default)
+- Ruby
+- Ruby Devkit
 - Visual Studio 2017 Build Tools (Windows 10)
 - Visual Studio Code
 
 ### Evasion
 - CheckPlease
 - Demiguise
+- DefenderCheck
 - DotNetToJScript
 - Invoke-CradleCrafter
 - Invoke-DOSfuscation
@@ -114,6 +124,7 @@ Installed Tools
 - CrackMapExec
 - CrackMapExecWin
 - DAMP
+- EvilClippy
 - Exchange-AD-Privesc
 - FuzzySec's PowerShell-Suite
 - FuzzySec's Sharp-Suite
@@ -149,6 +160,7 @@ Installed Tools
 - PrivExchange
 - Ruler
 - SharpExchangePriv
+- SharpExec
 - SpoolSample
 - UACME
 - impacket-examples-windows
@@ -160,7 +172,9 @@ Installed Tools
 - ADOffline
 - ADRecon
 - BloodHound
+- dnsrecon
 - Get-ReconInfo
+- GoBuster
 - GoWitness
 - Nmap
 - PowerView
@@ -185,6 +199,7 @@ Installed Tools
 ### Password Attacks
 - ASREPRoast
 - CredNinja
+- DomainPasswordSpray
 - DSInternals
 - Get-LAPSPasswords
 - Hashcat
@@ -214,6 +229,7 @@ Installed Tools
 - AutoIT
 - Cmder
 - CyberChef
+- Explorer Suite
 - Gimp
 - Greenshot
 - Hashcheck
@@ -223,6 +239,7 @@ Installed Tools
 - MobaXterm
 - Mozilla Thunderbird
 - Neo4j Community Edition
+- Notepad++
 - Pidgin
 - Process Hacker 2
 - SQLite DB Browser
@@ -235,8 +252,10 @@ Installed Tools
 - yEd Graph Tool
 
 ### Vulnerability Analysis
+- AD Control Paths
 - Egress-Assess
 - Grouper2
+- NtdsAudit
 - zBang
 
 ### Web Applications
@@ -244,12 +263,44 @@ Installed Tools
 - Fiddler
 - Firefox
 - OWASP Zap
+- Subdomain-Bruteforce
+- Wfuzz
 
 ### Wordlists
 - FuzzDB
 - PayloadsAllTheThings
 - SecLists
 
+## Changelog:
+1.2 - May 31 2019
+- Added recommended hardware settings #20
+- Added DomainPasswordSpray https://github.com/dafthack/DomainPasswordSpray #2
+- Added GoBuster https://github.com/OJ/gobuster #39
+- Added Wfuzz https://github.com/xmendez/wfuzz #40
+- Added Notepad++
+- Added TextFX plugin for Notepad++
+- Added Explorer Suite (CFF Explorer)
+
+1.1 - April 30 2019
+- Added AD-Control-Paths https://github.com/ANSSI-FR/AD-control-paths/releases
+- Added DefenderCheck https://github.com/matterpreter/DefenderCheck
+- Added dnsrecon https://github.com/darkoperator/dnsrecon
+- Added EvilClippy https://github.com/outflanknl/EvilClippy
+- Added NtdsAudit https://github.com/Dionach/NtdsAudit
+- Added SharpExec https://github.com/anthemtotheego/SharpExec
+- Added Subdomain-Bruteforce https://github.com/visualbasic6/subdomain-bruteforce
+- Fixed issue #18 with PATH 
+- Added Commando Logos with transparent backgrounds to $Home\Pictures
+- Pinned Firefox to Taskbar
+- Fixed misspellings in Readme #42/#43
+- Added Ruby and Ruby Devkit #1
+- Updated Rubeus package to current version (1.4.2) #31
+
+1.0.2 - April 10 2019
+- Added missing 'seclists.fireeye' package to packages.json #38
+
+1.0.1 - March 31 2019
+- Used https instead of http to install boxstarter #10
 
 Legal Notice
 ============
@@ -366,5 +417,10 @@ http://www.gnu.org/copyleft/gpl.html
 https://github.com/x64dbg/x64dbg/blob/development/LICENSE
 https://www.yworks.com/products/yed/license.html
 http://www.apache.org/licenses/LICENSE-2.0
-
+https://github.com/Dionach/NtdsAudit/blob/master/LICENSE
+https://github.com/ANSSI-FR/AD-control-paths/blob/master/LICENSE.txt
+https://github.com/OJ/gobuster/blob/master/LICENSE
+https://github.com/xmendez/wfuzz/blob/master/LICENSE
+https://github.com/dafthack/DomainPasswordSpray/blob/master/LICENSE
+https://github.com/nettitude/PoshC2_Python/blob/master/LICENSE
 </pre>

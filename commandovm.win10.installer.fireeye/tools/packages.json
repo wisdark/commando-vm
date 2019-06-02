@@ -20,6 +20,8 @@
         {"name": "python3"},
         {"name": "golang"},
         {"name": "dep"},
+        {"name": "ruby"},
+        {"name": "ruby2.devkit"},
         {"name": "adexplorer.fireeye"},
         {"name": "rsat.fireeye"},
         {"name": "tortoisesvn"},
@@ -69,6 +71,11 @@
         {"name": "apimonitor.fireeye"},
         {"name": "orca.fireeye"},
         {"name": "fiddler.fireeye"},
+        {
+            "name": "notepadplusplus",
+            "args": "--x86"
+        },
+        {"name": "notepadplusplus-textfx.fireeye"},
         {"name": "hxd.fireeye"},
         {
             "name": "metasploit.flare",
@@ -76,6 +83,7 @@
         },
         {"name": "burp.free.fireeye"},
         {"name": "kali_windowsbinaries.fireeye"},
+        {"name": "unxUtils"},
 
         {"name": "ADACLScanner.fireeye"},
         {"name": "ADAPE-Script.fireeye"},
@@ -91,25 +99,28 @@
         {"name": "CrackMapExecWin.fireeye"},
         {"name": "demiguise.fireeye"},
         {"name": "DotNetToJScript.fireeye"},
+        {"name": "DomainPasswordSpray.fireeye"},
         {"name": "DSInternals.fireeye"},
         {"name": "Egress-Assess.fireeye"},
-        {"name": "flare-floss.fireeye"},
+        {"name": "explorersuite.flare"},
         {"name": "Exchange-AD-Privesc.fireeye"},
+        {"name": "flare-floss.fireeye"},
         {"name": "fuzzdb.fireeye"},
         {"name": "Generate-Macro.fireeye"},
         {"name": "Get-LAPSPasswords.fireeye"},
         {"name": "Get-ReconInfo.fireeye"},
+        {"name": "GoBuster.fireeye"},
         {"name": "GoFetch.fireeye"},
         {
             "name": "gowitness.fireeye",
             "x64Only": true
         },
-        
         {"name": "Grouper2.fireeye"},
         {"name": "impacket.fireeye"},
         {"name": "impacket-examples-windows.fireeye"},
         {"name": "Internal-Monologue.fireeye"},
         {"name": "Inveigh.fireeye"},
+        {"name": "Seclists.fireeye"},
         {"name": "Invoke-ACLPwn.fireeye"},
         {"name": "Invoke-CradleCrafter.fireeye"},
         {"name": "Invoke-DCOM.fireeye"},
@@ -170,6 +181,15 @@
         {"name": "WMIOps.fireeye"},
         {"name": "zBang.fireeye"},
         {"name": "Elite.fireeye"},
+        {"name": "covenant.fireeye"},
+        {"name": "ad-control-paths.fireeye"},
+        {"name": "defendercheck.fireeye"},
+        {"name": "dnsrecon.fireeye"},
+        {"name": "EvilClippy.fireeye"},
+        {"name": "NtdsAudit.fireeye"},
+        {"name": "SharpExec.fireeye"},
+        {"name": "subdomain-bruteforce.fireeye"},
+        {"name": "wfuzz.fireeye"},
         {"name": "openvpn.fireeye", "args":"--parameters \'/SELECT_SHORTCUTS=0 /SELECT_LAUNCH=0\'"}
     ]
 }

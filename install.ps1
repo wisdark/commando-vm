@@ -57,7 +57,7 @@ function installBoxStarter()
   [System.Net.ServicePointManager]::SecurityProtocol = $AllProtocols
   [System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy  
   # download and instal boxstarter
-  iex ((New-Object System.Net.WebClient).DownloadString('http://boxstarter.org/bootstrapper.ps1')); get-boxstarter -Force  
+  iex ((New-Object System.Net.WebClient).DownloadString('https://boxstarter.org/bootstrapper.ps1')); get-boxstarter -Force  
   # Restore previous trust settings for this PowerShell session
   # Note: SSL certs trusted from installing BoxStarter above will be trusted for the remaining PS session
   [System.Net.ServicePointManager]::SecurityProtocol = $prevSecProtocol
@@ -77,7 +77,7 @@ Write-Host "|        "  -ForegroundColor Red -NoNewline; Write-Host "        \/ 
 Write-Host "|                       C O M P L E T E  M A N D I A N T                     |" -ForegroundColor Red 
 Write-Host "|                            O F F E N S I V E   V M                         |" -ForegroundColor Red 
 Write-Host "|                                                                            |" -ForegroundColor Red 
-Write-Host "|                                  Version 1.0                               |" -ForegroundColor Red 
+Write-Host "|                                  Version 1.2                               |" -ForegroundColor Red 
 Write-Host "|____________________________________________________________________________|" -ForegroundColor Red 
 Write-Host "|                                                                            |" -ForegroundColor Red 
 Write-Host "|                                  Developed by                              |" -ForegroundColor Red 
@@ -172,7 +172,7 @@ if ([string]::IsNullOrEmpty($password)) {
 # Install Boxstarter
 Write-Host "[ * ] Installing Boxstarter"
 try {
-  iex ((New-Object System.Net.WebClient).DownloadString('http://boxstarter.org/bootstrapper.ps1')); get-boxstarter -Force
+  iex ((New-Object System.Net.WebClient).DownloadString('https://boxstarter.org/bootstrapper.ps1')); get-boxstarter -Force
 } catch {
   $rc = installBoxStarter
   if (-Not $rc) {
