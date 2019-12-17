@@ -43,7 +43,6 @@
         {"name": "vlc.fireeye"},
         {"name": "yed.fireeye"},
         {"name": "hashcat.fireeye"},
-        {"name": "winrar"},
         {"name": "7zip"},
         {"name": "Greenshot.fireeye"},
         {"name": "winscp.fireeye"},
@@ -188,6 +187,17 @@
         {"name": "SharpExec.fireeye"},
         {"name": "subdomain-bruteforce.fireeye"},
         {"name": "wfuzz.fireeye"},
+        {"name": "FOCA.fireeye"},
+        {"name": "juicy-potato.fireeye"},
+        {"name": "NetRipper.fireeye"},
+        {"name": "Watson.fireeye"},
+        {"name": "vulcan.fireeye"},
+        {"name": "RobotsDisallowed.fireeye"},
+        {"name": "Probable-Wordlists.fireeye"},
+        {"name": "PwndPasswordsNTLM.fireeye"},
+        {"name": "RottenPotatoNG.fireeye"},
+        {"name": "SharpClipHistory.fireeye"},
+        {"name": "SharpSloit.fireeye"},
         {"name": "openvpn.fireeye", "args":"--parameters \'/SELECT_SHORTCUTS=0 /SELECT_LAUNCH=0\'"}
     ]
 }
